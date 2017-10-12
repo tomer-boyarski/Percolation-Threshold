@@ -6,7 +6,7 @@ The practical problem of percolation originated from the passing of fluids throu
 ## The model
 In our model, the porous material is a maze. We have sites, and bonds between them. In other words, we have 'towns and bridges'. The maze runner is our fluid. We burn some of the bonds (or 'bridges') by the Bernoulli distribution with constant p, and check for which p it is no longer possible to pass the maze. We expect that for bigger and bigger mazes, the graph of chance of passing as function of p will approach a step function (reverse heavy side function).
 
-##The Code
+## The Code
 I've used 2 function and 1 script to complete this calculation.
  
 The function named 'has_been' simulates the progress of the runner in the maze.
